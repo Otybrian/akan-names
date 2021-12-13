@@ -7,42 +7,47 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="section">
-        <div class="about">
-            <h1>Akan Names Generator</h1>
-            <p>According to the Ghanian culture, people are given their first names depending<br> 
-                on the day of the week they were born. Each gender has names that correspond<br>
-                to the seven days of the week. This website is a way of calculating a person's <br>
-                Akan name depending on the day, the month, and the year they were born</p>
-            <h2>How it works</h2>
-            <p>The user is supposed to enter their birthday details as prompted. Don't worry, <br>
-                the day of the week in which you were born will be calculated for you too! Your<br>
-                 Akan name will be displayed as a pop up on the top of the page</p>
-        </div>
-    </div>
-    <center>
-        <div class="form">
-            <div class="details">
-
-                <p>Enter your birthdate</p>
-                <input type="number" name="day" id="day">
-                <p>Enter your birthmonth</p>
-                <input type="number" name="month" id="month">
-                <p>Enter your birthyear</p>
-                <input type="number" name="year" id="year">
+        <div class="section">
+            <div class="about">
+                <h1>Akan Names Generator</h1>
+                <p>According to the Ghanian culture, people are given their first names depending<br> 
+                    on the day of the week they were born. Each gender has names that correspond<br>
+                    to the seven days of the week. This website is a way of calculating a person's <br>
+                    Akan name depending on the day, the month, and the year they were born</p>
+                <h2>How it works</h2>
+                <p>The user is supposed to enter their birthday details as prompted. Don't worry, <br>
+                    the day of the week in which you were born will be calculated for you too! Your<br>
+                     Akan name will be displayed as a pop up on the top of the page</p>
             </div>
-            <div class="Gender">
-                <p>Scroll to select your gender</p>
-                <label for="gender">Gender</label>
-
-                <select name="gender" id="my">
-                    <option value=""></option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-            </div><br><br>
-            <button id="button" onclick="OnSubmit()">Submit</button>
         </div>
+
+        <center>
+            <div class="form">
+                <div class="details">
+
+                    <p>Enter your birthdate</p>
+                    <input type="number" name="day" id="day">
+                    <p>Enter your birthmonth</p>
+                    <input type="number" name="month" id="month">
+                    <p>Enter your birthyear</p>
+                    <input type="number" name="year" id="year">
+                </div>
+                <div class="Gender">
+                    <p>Scroll to select your gender</p>
+                    <label for="gender">Gender</label>
+
+                    <select name="gender" id="my">
+                        <option value=""></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div><br><br>
+                <button id="button" onclick="OnSubmit()">Submit</button>
+            </div>
+        </center>
+    <center>
+    <p style="font-size: 30px; font-weight: 900; color: brown;">Have fun knowing your Akan Name</p>
     </center>
+    <script src="script.js"></script>
 </body>
 </html>
