@@ -2,3 +2,16 @@ body {
     background-image: url("images/scott-webb-39EnV5YgoAI-unsplash.jpg");
     background-size: cover;
 }
+.about h1 {
+    font-size: 35px;
+    color: brown;
+}
+.about p {
+    font-size: 30px;
+    color: blue;
+    font-weight: 900;
+}
+.about h2{
+    font-size: 30px;
+    color: brown;
+}
