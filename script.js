@@ -92,3 +92,8 @@ function getDayValue(){
   console.log(d);
   return (Math.floor(d));
 }
+
+function getAkanName(){
+  dayValue = genderType();
+  getDayValue();
+}
