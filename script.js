@@ -2,10 +2,9 @@ var CC, YY, MM, DD, d, dayValue;
 var dayNames = ["Sunday","Monday","Tuesday","Wednesday", "Thursday", "Friday","Saturday" ];
 var femaleNames = ["Akosua","Adwoa","Abenaa","Akua"," Yaa","Afua","Ama"];
 var maleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw", "Kofi","Kwame"];
-var birthYear = year;
 
 
-function hello(); {
+function validate(); {
     var birthYear = document.getElementsById("year").value;
   if( document.mydetails.year.value == "" || document.mydetails.year.value.length !=4 || document.mydetails.year.value >= 2100 || document.mydetails.year.value <=1890) {
      alert( "Enter a valid year like 1992" );
