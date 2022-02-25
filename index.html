@@ -1,21 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan names</title>
+    <link rel='stylesheet' href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body>
-    <form id="myform">
-        <input type="text" id="date" placeholder="enter birthdate"><br><br>
-        <input type="text" id="month" placeholder="enter birthmonth"><br><br>
-        <input type="text" id="year" placeholder="enter birthyear"><br><br>
-        <input type="radio" id="male" name="gender" required>Male <br><br>
-        <input type="radio" id="female" name="gender" required>Female <br><br>
-        <input type="button" value="submit" id="submitButton" onclick="akanName(); return false">
-        <p id="results">Calculated: </p>
-    </form>
+
+<body style="background-image: url('images/scott-webb-39EnV5YgoAI-unsplash.jpg');">
+    <center>
+        <h2>Welcome to Akan Names Application</h2>
+    </center>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="explain">
+                    <p>In Ghana, the Akan culture, names are given<br>
+                        to people depending on their date of birth and gender</p>
+                    <p>This is a fun app that lets users to enter <br>
+                        their birthday details and gender, then calculates<br>
+                        their birthday and returns their corresponding<br>
+                        Akan names based on their gender</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form id="myform">
+                    <p>Enter the date you were born</p>
+                    <input type="text" id="date" placeholder="enter birthdate"><br><br>
+                    <p>Enter the month you were born in</p>
+                    <input type="text" id="month" placeholder="enter birthmonth"><br><br>
+                    <p>Enter the year you were born</p>
+                    <input type="text" id="year" placeholder="enter birthyear"><br><br>
+                    <p>Select your gender</p>
+                    <div class="row">
+                    <div class="col-sm-3" style="margin-left: 90px;">
+                    <input type="radio" id="male" name="gender" required>Male <br><br>
+                    <input type="radio" id="female" name="gender" required>Female <br><br>
+                    </div>
+                    <div class="col-sm-3" style="margin-left: 90px;">
+                    <input type="button" value="submit" id="submitButton" onclick="akanName(); return false">
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container"><p id="results" style="font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: blue;">Calculated: </p></div> 
     <script src="js/scripts.js"></script>
 </body>
+
 </html>
